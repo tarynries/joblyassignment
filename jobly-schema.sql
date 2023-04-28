@@ -6,7 +6,7 @@ CREATE TABLE companies (
   logo_url TEXT
 );
 
-CREATE TABLE users (
+CREATE TABLE users (  
   username VARCHAR(25) PRIMARY KEY,
   password TEXT NOT NULL,
   first_name TEXT NOT NULL,
